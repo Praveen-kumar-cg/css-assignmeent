@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.spotify{
+    display: grid;
+    height: 100%;
+    width: 100vw;
+    grid-template:
+    "navbar main" 1fr 
+    "footer footer" 66px
+    /280px 1fr;
+    border: 1px solid rgb(70, 65, 4);
+
+}
+nav{
+    grid-area: navbar;
+    border: 1px solid red;
+    background-color: black;
+}
+main{
+    grid-area: main;
+    border: 1px solid rgb(82, 16, 247);
+    background-color: #212121;
+
+}
+footer{
+    grid-area: footer;
+    border: 1px solid rgb(127, 235, 4);
+
+}
+
+.logo img{
+    
+    height: 50px;
+}
+.asidenavbar ul li img{
+    height: 35px;
+}
+.asidenavbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+.asidenavbar ul li{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.asidenavbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainheading{
+    display: flex;
+    justify-content: space-between;
+    height:fit-content;
+    padding:30px ;
+    background-color: #212121;
+}
+.songslist{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding: 20px;
+}
+.songmain{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.songs{
+    background-color: #303030;
+    display: flex;
+    width:250px;
+    align-items: center;
+    gap: 20px;
+    font-family:sans-serif;
+    padding-right: 20px;
+    
+}
+.songs img{
+    height: 80px;
+}
+.youlike{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.card{
+    background-color: #181818;
+    padding: 10px;
+}
+.cardpara1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.cardpara2{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: lightgrey;
+}
+.footerr{
+    display: flex;
+    background-color: #181818;
+    justify-content: space-between;
+    padding: 1%;
+}
+.footermiddl img{
+    height: 50px;
+}
+.footerright img{
+    height: 30px;
+}
+.footerleft{
+    display: flex;
+}
