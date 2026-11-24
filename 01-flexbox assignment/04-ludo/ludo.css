@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.ludo-main{
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    width: 800px;
+    margin: auto;
+}
+.holdingplace{
+    border: 40px solid red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.innercircle{
+    height: 50px;
+    width: 50px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+.green{
+    border: 40px solid green;
+}
+.green>div{
+    border: 3px solid green;
+}
+.yellow{
+    border: 40px solid yellow;
+}
+.yellow>div{
+    border: 3px solid yellow;
+}
+.blue{
+    border: 40px solid blue;
+}
+.blue>div{
+    border: 3px solid blue;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+}
+.tablerow td{
+    height: 52px;
+    width: 52px;
+    z-index: 100;
+}
+.ludo-main1{
+        height: 160px;
+        width: 160px;
+        position: relative;
+        border: 1px solid rgb(78, 78, 78)
+
+}
+.inside{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+
+}
+.tringle1{
+    background-color: green;
+    clip-path: polygon(0% 0%,100% 0%,50% 50%);
+}
+.tringle2{
+    
+    background-color: yellow;
+    clip-path: polygon(50% 50%,100% 0%,100% 100%);
+}
+.tringle3{
+    
+    background-color: blue;
+    clip-path: polygon(50% 50%,0% 100%,100% 100%);
+}
+.tringle4{
+    background-color: red;
+    clip-path: polygon(50% 50%,0% 0%,0% 100%);
+}
+.star{
+    font-size: 37px;
+    text-align: center;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.greencolor{
+    background-color: green;
+}
+.redcolor{
+    background-color: red;
+}
+.yellowcolor{
+    background-color: yellow;
+}
+.bluecolor{
+    background-color: blue;
+}
