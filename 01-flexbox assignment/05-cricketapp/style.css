@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.appmain {
+    background-image: url("https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/06.cricket_app/backgroud.png?raw=true");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 30px;
+}
+
+.log0 {
+    display: flex;
+    justify-content: right;
+}
+
+#para1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+#para2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(89, 82, 74);
+}
+
+.scorecard {
+    width: 900px;
+    background-color: white;
+}
+
+table {
+    border: 2px solid;
+    width: inherit;
+    border: none;
+    border-collapse: collapse;
+}
+
+.innings-header {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #F05136;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+table tr {
+    border-top: 2px solid lightgray;
+
+}
+
+table td {
+    height: 50px;
+    font-size: 16px;
+    font-family: serif;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+
+tr td:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+.firsttr td{
+    font-size: 22px;
+}
+.player{
+    color: blueviolet;
+}
+.dismissal{
+    color: rgb(87, 50, 50);
+}
